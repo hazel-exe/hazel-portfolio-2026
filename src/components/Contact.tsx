@@ -52,7 +52,7 @@ export function Contact() {
         <div className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-black/[0.04] max-w-2xl mx-auto">
           <form 
             className="space-y-6" 
-            action="https://formspree.io/f/hazelkhattar7@gmail.com" 
+            action="https://formspree.io/f/mkoqgkwg" 
             method="POST"
             onSubmit={handleSubmit}
           >
@@ -61,7 +61,7 @@ export function Contact() {
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="full-name"
                 required
                 className="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-science-blue/20 focus:border-science-blue transition-all"
                 placeholder="What should I call you?"
